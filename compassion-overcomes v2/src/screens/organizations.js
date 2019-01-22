@@ -1,9 +1,13 @@
 import React from 'react';
+import OrgForm from './OrgForm';
+
+
 
 const Organizations = () => (
     <div>
-        <h3>Organizations</h3>
+        
     </div>
-);
 
+
+);
 export default Organizations;
