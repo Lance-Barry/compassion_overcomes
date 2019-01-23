@@ -1,6 +1,6 @@
 import React from 'react'
 //import { render } from 'react-dom'
-import Styles from './OrgFormStyles'
+import Styles from '../styles/OrgFormStyles'
 import { Form, Field } from 'react-final-form'
 
 // eslint-disable-next-line
