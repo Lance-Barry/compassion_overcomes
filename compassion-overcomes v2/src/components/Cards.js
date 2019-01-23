@@ -34,7 +34,7 @@ const Cards = (props) => {
              <CardTitle>Volunteer Portal</CardTitle>
              <CardSubtitle>Click below to begin</CardSubtitle><br></br>
              <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
-             <Button href="../screens/OpportunityBoard.js">See Opportunities</Button>
+             <Link to="/opportunities"><Button>See Opportunities</Button></Link>
            </CardBody>
          </Card>
          
