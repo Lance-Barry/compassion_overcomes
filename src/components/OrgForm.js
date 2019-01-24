@@ -1,28 +1,13 @@
 import React from 'react'
-//import { render } from 'react-dom'
 import Styles from '../styles/OrgFormStyles'
 import { Form, Field } from 'react-final-form'
 
-
-// eslint-disable-next-line
-//import Cards from 'Cards';
-
-
-
-const sleep = ms => new Promise(resolve => setTimeout(resolve, ms))
-
-const onSubmit = async values => {
-  await sleep(300)
-  window.alert(JSON.stringify(values, 0, 2))
-}
-
-const OrgForm = () => (
+const OrgForm = ({ handleSubmit }) => (
   <Styles>
     <h1>Disaster Needs Form</h1>
     <Form
-      onSubmit={onSubmit}
-      //initialValues={{ stooge: 'larry', employed: false }}
-      render={({ handleSubmit, form, submitting, pristine, values }) => (
+      onSubmit={handleSubmit}
+      render={({ handleSubmit, submitting, pristine }) => (
         <form onSubmit={handleSubmit}>
           <div>
             <label>Organization</label>
@@ -40,6 +25,7 @@ const OrgForm = () => (
               component="input"
               type="text"
               placeholder="Enter Disaster Name"
+              required
             />
           </div>
           <div>
@@ -48,15 +34,15 @@ const OrgForm = () => (
           </div>
           <div>
             <label>Ongoing</label>
-            <Field name="isOngoing" component="input" type="checkbox" />
+            <Field name="isOngoing" component="input" type="checkbox"/>
           </div>
           <div>
             <label>Rally Point</label>
-            <Field name="rallyPoint" component="input" text="text" placeholder="Rally Point Address" />
+            <Field name="rallyPoint" component="input" text="text" placeholder="Rally Point Address" required/>
           </div>
           <div>
             <label>Details</label>
-            <Field name="details" component="textarea" placeholder="Enter Specific Details Here" />
+            <Field name="details" component="textarea" placeholder="Enter Specific Details Here" required/>
           </div>
           
           <div className="buttons">
