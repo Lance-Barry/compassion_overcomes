@@ -47,8 +47,8 @@ const OrgForm = () => (
             <Field name="is18Up" component="input" type="checkbox" />
           </div>
           <div>
-            <label>Ongoing</label>
-            <Field name="isOngoing" component="input" type="checkbox" />
+            <label>Active</label>
+            <Field name="isActive" component="input" type="checkbox" />
           </div>
           <div>
             <label>Rally Point</label>

@@ -21,9 +21,9 @@ const Cards = (props) => {
          <Card>
          <CardImg top width="100%" src={Org} alt="Orginzation needs" />
            <CardBody>
-             <CardTitle>Organization Portal</CardTitle>
+             <CardTitle>Refief Organization Portal</CardTitle>
              <CardSubtitle>Click below to begin</CardSubtitle><br></br>
-             <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
+             <CardText>All relief and governmental agencies, click the below below to input your needs for specific disaster in the following form.</CardText>
              
              <Link to="/organizations"><Button>Post Needs</Button></Link>
            </CardBody>
@@ -33,7 +33,7 @@ const Cards = (props) => {
            <CardBody>
              <CardTitle>Volunteer Portal</CardTitle>
              <CardSubtitle>Click below to begin</CardSubtitle><br></br>
-             <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
+             <CardText>Volunteers, please click the "See Opportunities" to view all volunteer opportunities.</CardText>
              <Link to="/opportunities"><Button>See Opportunities</Button></Link>
            </CardBody>
          </Card>
