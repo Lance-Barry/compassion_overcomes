@@ -28,10 +28,10 @@ const OrgForm = ({ handleSubmit }) => (
               required
             />
           </div>
-          <div>
+          {/* <div>
             <label>18+</label>
             <Field name="is18Up" component="input" type="checkbox" />
-          </div>
+          </div> */}
           <div>
             <label>Active</label>
             <Field name="isActive" component="input" type="checkbox" />

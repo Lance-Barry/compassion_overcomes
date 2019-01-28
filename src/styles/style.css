@@ -73,23 +73,23 @@ body {
   /*====================
         FOOTER
   ======================*/
-  footer {
+  /* footer {
     padding:25px 0px;
     text-align: center;
     color:#ffffff;
-    background:  #FF6363;
-  }
+    background:  #FF6363; */
+  /* }
   .footer .footer_logo{
     font-size: 25px;
     
     
-  }
+  } */
 
-  #footer_copyright {
+  /* .footer_copyright {
     text-align: center;
-  }
+  } */
   
-  .social-links {
+  /* .social-links {
     padding: 15px;
     font-size: 20px;
   }
@@ -104,8 +104,8 @@ body {
     -o-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-  }
+    transition: all 0.2s ease-in-out; */
+
   footer .footer_copyright {
     font-size: 20px;
     text-align: center;
@@ -205,8 +205,9 @@ body {
   right:0;
   }
   
+
   
-  .split-pane {
+  /* .split-pane {
   top: 0;
   overflow-x: hidden;
   }
@@ -263,8 +264,8 @@ body {
   .frontend-side.split-pane button:hover, .split-pane a.button:hover {
   color: #FF6363;
   }
-  
-  .big {
+   */
+  /* .big {
   font-size: 25px;
   
   }
@@ -276,7 +277,7 @@ body {
   .big {
   font-weight:300;
   }
-  
+   */
   
   
   
@@ -286,7 +287,7 @@ body {
   ======================*/
   
   
-  .gitstarted h2 {
+  /* .gitstarted h2 {
     text-align: center;
     text-transform: uppercase;
     color: #dddddd;
@@ -294,9 +295,9 @@ body {
     padding: 50px 0px ;
     font-family: 'Righteous', cursive;
     /* background: #ffffff */
-  }
+   /* */
   
-  .gitstarted_info .steps  {
+  /* .gitstarted_info .steps  {
     line-height: 50px;
     text-align: center;
     font-size: 22px;
@@ -306,9 +307,9 @@ body {
     padding: 30px 0px;
     background-color: #dddddd; 
   }
+   */
   
-  
-  
+/*   
   .gitstarted .splitpane {
   background-color: #dddddd;
   }
@@ -333,8 +334,8 @@ body {
     border: 2px solid #828282;
     margin: auto;
     padding: 5px;
-  }
-  
+  } */
+/*   
   .gs_item .gs_inner {
     border: 2px solid #828282;
     position: relative;
@@ -381,7 +382,7 @@ body {
   }
   /* //video// */
   
-  .player-wrapper {
+  /* .player-wrapper {
      position: absolute;
      top:50px;
      left:20px;
@@ -395,8 +396,8 @@ body {
   width: 400px;
   height: 300px;
   float: left;
-  } 
-  
+  }  */
+   */
   /*====================
        MEDIA QUERIES
   ======================*/
@@ -415,7 +416,7 @@ body {
   }   */
   
   
-  .img_cover{
+  /* .img_cover{
   margin: 10px auto ; 
   float: none;
   }
@@ -427,20 +428,20 @@ body {
   text-align: center;
   
   }
-  .gitstarted .header-links li{
+  /* .gitstarted .header-links li{
     /* float: none;
     display: block;
     text-align: left; */
     
-        float: none;
+        /* float: none;
         width: 100%;
      
   }
-  }
-  
+  } */
+   */ */
   @media screen and (max-width: 576px){
   
-  .header-links li {
+  /* .header-links li {
     float: none;
     display: block;
     text-align: left;
@@ -457,7 +458,7 @@ body {
   text-align: center;
   }
   
-  }
+  } */
   
   /* Ipad */
   @media screen and (max-width: 768px){
@@ -466,7 +467,7 @@ body {
   float: none;
   display: block;
   text-align: left;
-  } 
+  }
   .img_cover{
   margin: 10px auto ; 
   float: none;
@@ -477,7 +478,7 @@ body {
   width:300px;
   height:160px;
   text-align: center;
-  } 
+  }
   }
   
   /*  */
