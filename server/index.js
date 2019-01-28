@@ -3,34 +3,28 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const sqlite = require('sqlite3').verbose();
 const PORT = 2048;
-
+const dbFilename = "./compassion_overcomes2.sqlite"
+ 
+// open database in memory
+let db = new sqlite.Database(dbFilename, (err) => {
+  if (err) {
+    return console.error(err.message);
+  }
+  console.log(`Connected to the ${dbFilename} database.`);
+});
 // 1. Make a compassion_overcomes database - check
 // 2. Insert default data into database - check 
-const defaultOpportunities = [{
-    id: 23782,
-    organization: "Bethel Church",
-    disaster: "Carr Fire",
-    isActive: true,
-    rallyPoint: "Bethel’s College View campus to the Salvation Army building at 2691 Larkspur Ln, Redding, CA 96002",
-    details: "All donations and picking up of needed items by Carr Fire victims is now at above address. Visit https://www.bethel.com/carrfire/#resources for local resources and volunteer opportunities.",
-  },
-  {
-    id: 332,
-    organization: "Samaritan's Purse",
-    disaster: "Hurricane Michael",
-    isActive: true,
-    rallyPoint: "City Hall, 1st Ave and Main St., every morning at 8 a.m.",
-    details: "Ongoing clean-up for local residents needed. Eye protection, gloves and work boots required.",
-  },
-  {
-    id: 9121,
-    organization: "Red Cross",
-    disaster: "Spencer SD Tornado",
-    isActive: false,
-    rallyPoint: "Red Cross Tent, located on high school football field every morning at 8 a.m.",
-    details: "F5 tornado struck city of Spencer causing catastrophic damage. Search and rescue efforts on-going. Eye protection, gloves and work boots required",
-  },
-]
+
+ 
+// open database in memory
+let query = "SELECT * FROM Opportunities"
+
+db.all(query, [], (err, rows) => {
+ if (err) {
+   throw err;
+ }
+ console.log(rows)
+})
 
 const app = express();
 
