@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const sqlite = require('sqlite3').verbose();
 const PORT = 2048;
-const dbFilename = "./compassion_overcomes2.sqlite"
+const dbFilename = "./compassion-overcomes2.sqlite"
  
 // open database in memory
 let db = new sqlite.Database(dbFilename, (err) => {
@@ -17,14 +17,7 @@ let db = new sqlite.Database(dbFilename, (err) => {
 
  
 // open database in memory
-let query = "SELECT * FROM Opportunities"
 
-db.all(query, [], (err, rows) => {
- if (err) {
-   throw err;
- }
- console.log(rows)
-})
 
 const app = express();
 
@@ -43,17 +36,18 @@ app.get("/", (req, res) => {
 // send the array of opportunities
 app.get("/opportunities", (req, res) => {
   // Run query to get all the opportunites from the database
-  // const query = "SELECT * FROM opportunities"
+  let query = "SELECT * FROM Opportunities"
 
-  // db.all(query, (err, opps) => {
-  //   if (err) throw err;
-  //   else {
-  //     // 4. send the data to the client/react
-  //     res.send(opps);
-  //   }
-  // })
+  db.all(query, [], (err, rows) => {
+   if (err) {
+     throw err;
+   }
+   
+   console.log(rows)
+   res.send(rows)
+  })
 
-  res.send(defaultOpportunities)
+  
 })
 
 // 5. Set up post route to receive opportunity data from React

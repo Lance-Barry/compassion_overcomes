@@ -42,6 +42,22 @@ class App extends Component {
         id: 1000
     }
 
+    fetchOpportunities = () => {
+        fetch("http://localhost:2048/opportunities") // action that takes a while
+            .then((res) => { // what we do after it's done
+                console.log(res);
+                return res.json();
+            })
+            .then((opportunities) => { // what we do after that
+                console.log(opportunities)
+                this.setState({ opportunities: opportunities })
+            })
+    }
+    
+    componentDidMount() {
+        this.fetchOpportunities()
+    }
+
     handleSubmit = (opportunity) => {
         console.log(opportunity);
         opportunity["id"] = this.state.id
