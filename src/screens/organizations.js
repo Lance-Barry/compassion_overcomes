@@ -1,10 +1,10 @@
 import React from 'react';
 import OrgForm from '../components/OrgForm';
 
-const Organizations = ({ handleSubmit }) => (
+const Organizations = ({ onSubmit }) => (
     <div>
         <h2>Organizations</h2>
-        <OrgForm handleSubmit={handleSubmit}/>
+        <OrgForm onSubmit={onSubmit}/>
     </div>
     
     

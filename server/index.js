@@ -12,12 +12,6 @@ let db = new sqlite.Database(dbFilename, (err) => {
   }
   console.log(`Connected to the ${dbFilename} database.`);
 });
-// 1. Make a compassion_overcomes database - check
-// 2. Insert default data into database - check 
-
- 
-// open database in memory
-
 
 const app = express();
 
@@ -43,11 +37,26 @@ app.get("/opportunities", (req, res) => {
      throw err;
    }
    
-   console.log(rows)
    res.send(rows)
   })
+})
 
+app.post('/opportunities', (req, res) => {
+  console.log("\npost request received\n")
+  const opp = req.body;
+  const query = `INSERT INTO Opportunities("Organizations", "Disaster", "isActive", "RallyPoint", "Details")
+                 VALUES (?, ?, ?, ?, ?)`
   
+  db.run(query, [opp.Organizations, opp.Disaster, opp.isActive, opp.RallyPoint, opp.Details], (err) => {
+    if (err) {
+      return console.log(err.message);
+    }
+    // get the last insert id
+    console.log(`A row has been inserted`);
+  });
+
+  console.log(req.body)
+  res.send(opp)
 })
 
 // 5. Set up post route to receive opportunity data from React

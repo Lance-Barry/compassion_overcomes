@@ -10,7 +10,7 @@ class OpportunityBoard extends Component {
             <div>
                 <h3>Opportunity Message Board Page</h3>
                 { opportunities.map( opportunity => (
-                    <Opportunity key={opportunity.id} opportunity={opportunity} />
+                    <Opportunity key={opportunity.AppUserID} opportunity={opportunity} />
                 ))}
             </div>
         );

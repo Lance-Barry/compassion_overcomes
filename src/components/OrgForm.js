@@ -2,17 +2,17 @@ import React from 'react'
 import Styles from '../styles/OrgFormStyles'
 import { Form, Field } from 'react-final-form'
 
-const OrgForm = ({ handleSubmit }) => (
+const OrgForm = ({ onSubmit }) => (
   <Styles>
     <h1>Disaster Needs Form</h1>
     <Form
-      onSubmit={handleSubmit}
+      onSubmit={onSubmit}
       render={({ handleSubmit, submitting, pristine }) => (
         <form onSubmit={handleSubmit}>
           <div>
             <label>Organization</label>
             <Field
-              name="organization"
+              name="Organizations"
               component="input"
               type="text"
               placeholder="Enter Organization Name"
@@ -21,7 +21,7 @@ const OrgForm = ({ handleSubmit }) => (
           <div>
             <label>Disaster</label>
             <Field
-              name="disaster"
+              name="Disaster"
               component="input"
               type="text"
               placeholder="Enter Disaster Name"
@@ -38,11 +38,11 @@ const OrgForm = ({ handleSubmit }) => (
           </div>
           <div>
             <label>Rally Point</label>
-            <Field name="rallyPoint" component="input" text="text" placeholder="Rally Point Address" required/>
+            <Field name="RallyPoint" component="input" text="text" placeholder="Rally Point Address" required/>
           </div>
           <div>
             <label>Details</label>
-            <Field name="details" component="textarea" placeholder="Enter Specific Details Here" required/>
+            <Field name="Details" component="textarea" placeholder="Enter Specific Details Here" required/>
           </div>
           
           <div className="buttons">
@@ -58,4 +58,3 @@ const OrgForm = ({ handleSubmit }) => (
   </Styles>
 )
 export default OrgForm;
-//render(<App />, document.getElementById("root"));

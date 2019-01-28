@@ -4,12 +4,14 @@ import { Link } from 'react-router-dom';
 
 import Org from '../resources/images/Org.png';
 import Vol from '../resources/images/Vol.png';
+
+import '../styles/Cards.css'
 //import fullSizeWordsNoVerse from '../resources/images/fullSizeWordsNoVerse.jpg';
 
 const Cards = (props) => {
   return (
     <div className="cardDeck">
-      <CardDeck>
+      <CardDeck className="orange">
         {/* <Card>
            <CardImg top width="100%" src={fullSizeWordsNoVerse} alt="Compassion Overcomes About" />
            <CardBody>
