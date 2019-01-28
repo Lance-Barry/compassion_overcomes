@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^3.9.0",
     "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "final-form": "^4.11.0",
     "react": "^16.7.0",
@@ -22,7 +23,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "npm-run-all --parallel server start"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,7 +36,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.18.9",
+    "npm-run-all": "^4.1.5"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
