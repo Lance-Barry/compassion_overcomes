@@ -1,17 +1,18 @@
 import React from 'react';
+import '../styles/footer.css';
 
 
 
 const Footer = () => {
     return (
         <footer className="bottom">
-            <footer className='bottom'>
+            <footer>
             </footer>
 
 
-            <div className='footer_copywrite'>
-                © Compassion Overcomes 2019, All Rights Reserved.
-        </div>
+            <div className="copywrite">
+                <p>©Compassion Overcomes 2019, All Rights Reserved.</p>
+            </div>
         </footer>
     )
 }

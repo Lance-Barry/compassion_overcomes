@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+
+.singleCard {
+    padding: 50px 200px 50px 200px;
+    text-align: justify;
+}
+.singleCardTitle {
+    font-size: 40px;
+}
+
+.singleCardImg {
+    size: 80%;
+    
+
+}
+
+
+
+.pageHeading {
+    padding: 65px 0px 0px 0px;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Merienda', cursive;
+}
+
+body {
+    background-color: 
+
+    
+}
+
+.cardsStyle {
+    color: lightslategray;
+    
+    text-align: justify;
+    padding: 50px;
+  }
+  
+  .cardTitle {
+    font-size: 30px;
+  }
+  
+  .cardSubtitle {
+    font-size: 20px;
+  }
+  
+  .singleCardText {
+    font-size: 30px;
+  }

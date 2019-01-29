@@ -1,10 +1,18 @@
 import React from 'react';
-import Cards from '../components/Cards'
+import Cards from '../components/Cards';
+
+
+import "../styles/home.css";
 
 const Home = () => (
     <div>
-        <h2>Home</h2>
-        <Cards />
+        <div class="pageHeading">
+            <p>Compassion Overcomes</p>
+            
+        </div>
+        <div>
+            <Cards />
+        </div>
     </div>
 );
 

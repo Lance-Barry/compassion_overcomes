@@ -1,9 +1,16 @@
 import React from 'react';
+import Card from '../components/Card';
+
 
 const About = () => (
-    <div>
-        <h2>About</h2>
-    </div>
+    <div class="pageHeading">
+            <p>About</p>
+            <Card />
+        </div>
 );
 
-export default About;
+export default About
+
+
+
+

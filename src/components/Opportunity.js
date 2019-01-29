@@ -1,7 +1,8 @@
 import React from 'react';
+import '../styles/opportunityBoard.css';
 
 const Opportunity = ({ opportunity }) => (
-  <div style={{margin: "50px auto", padding: "50px", marginTop: "80px", textAlign: "center", border: "5px solid black"}}>
+  <div className="oppJS">
     <h3>Organization: { opportunity.Organizations }</h3>
     <p>Disaster Name: { opportunity.Disaster }</p>
     <p>Active: { opportunity.isActive ? "Yes" : "Ended"}</p>

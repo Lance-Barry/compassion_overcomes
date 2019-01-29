@@ -1,3 +1,18 @@
-.orange {
-  color: orange;
+.cardsStyle {
+  color: lightslategray;
+  
+  text-align: justify;
+  padding: 50px;
+}
+
+.cardsTitle {
+  font-size: 30px;
+}
+
+.cardSubtitle {
+  font-size: 20px;
+}
+
+.cardsText {
+  font-size: 25px;
 }

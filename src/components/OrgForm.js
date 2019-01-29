@@ -4,7 +4,7 @@ import { Form, Field } from 'react-final-form'
 
 const OrgForm = ({ onSubmit }) => (
   <Styles>
-    <h1>Disaster Needs Form</h1>
+    <h1>Relief Agency Form</h1>
     <Form
       onSubmit={onSubmit}
       render={({ handleSubmit, submitting, pristine }) => (
