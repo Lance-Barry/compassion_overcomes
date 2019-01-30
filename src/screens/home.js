@@ -1,8 +1,8 @@
 import React from 'react';
 import Cards from '../components/Cards';
 
-
 import "../styles/home.css";
+
 
 const Home = () => (
     <div>
@@ -11,6 +11,7 @@ const Home = () => (
             
         </div>
         <div>
+            
             <Cards />
         </div>
     </div>

@@ -2,13 +2,17 @@ import React from 'react'
 import Styles from '../styles/OrgFormStyles'
 import { Form, Field } from 'react-final-form'
 
+import '../styles/orgForm.css';
+
+
 const OrgForm = ({ onSubmit }) => (
-  <Styles>
-    <h1>Relief Agency Form</h1>
-    <Form
+  <Styles> 
+    
+    <Form div className="formStyle"
       onSubmit={onSubmit}
       render={({ handleSubmit, submitting, pristine }) => (
-        <form onSubmit={handleSubmit}>
+        <form style={{background:"gainsboro"}}onSubmit={handleSubmit} >
+        <h1>Relief Agency Form</h1>
           <div>
             <label>Organization</label>
             <Field

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda');
 
 .singleCard {
-    padding: 50px 200px 50px 200px;
+    padding: 50px 300px 50px 300px;
     text-align: justify;
 }
 .singleCardTitle {
@@ -23,11 +23,6 @@
     font-family: 'Merienda', cursive;
 }
 
-body {
-    background-color: 
-
-    
-}
 
 .cardsStyle {
     color: lightslategray;

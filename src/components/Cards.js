@@ -2,8 +2,8 @@ import React from 'react';
 import { Card, Button, CardImg, CardTitle, CardText, CardDeck, CardBody } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
-import Org from '../resources/images/Org.png';
-import Vol from '../resources/images/Vol.png';
+import OrgResize from '../resources/images/OrgResize.jpg';
+import VolResize from '../resources/images/VolResize.jpg';
 
 import '../styles/Cards.css'
 //import fullSizeWordsNoVerse from '../resources/images/fullSizeWordsNoVerse.jpg';
@@ -22,7 +22,7 @@ const Cards = (props) => {
            </CardBody>
          </Card> */}
         <Card>
-          <CardImg top width="100%" src={Org} alt="Orginzation needs" />
+          <CardImg top width="100%" src={OrgResize} alt="Orginzation needs" />
           <CardBody>
             <div className="cardsTitle">
               <CardTitle>Organization Portal</CardTitle>
@@ -31,14 +31,14 @@ const Cards = (props) => {
               <CardSubtitle>Click below to begin</CardSubtitle><br></br>
             </div> */}
             <div className="cardsText">
-              <CardText>Welcome relief and governmental agencies! Thank you for providing information for your organization's current situation. Please click the "Post Opportunities" below to provide the specific disaster volunteer opportunities.</CardText>
+              <CardText>Welcome relief and governmental agencies! Thank you for providing information for your organization's current situation. Please click the "Post Opportunities" below to provide disaster volunteer opportunities.</CardText>
               <Link to="/organizations"><Button>Post Opportunities</Button></Link>
             </div>
             
           </CardBody>
         </Card>
         <Card>
-          <CardImg top width="100%" src={Vol} alt="Volunteer hands" />
+          <CardImg top width="100%" src={VolResize} alt="Volunteer hands" />
           <CardBody>
             <div className="cardsTitle">
               <CardTitle>Volunteer Portal</CardTitle>

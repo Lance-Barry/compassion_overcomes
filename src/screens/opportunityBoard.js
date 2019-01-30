@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Opportunity from '../components/Opportunity';
 
-import '../styles/opportunityBoard.css';
+import '../styles/opportunityBoard.css'
 
 class OpportunityBoard extends Component {
 

@@ -40,7 +40,7 @@ body {
         HEADER
   ======================*/
   
-  header {
+  /* header {
     padding:10px 10px; 
     transition: all 300ms ease-in; 
   }
@@ -68,7 +68,7 @@ body {
     .header-links a:hover {
       color: #FF6363 !important;
     }
-   
+    */
    
   /*====================
         FOOTER
@@ -111,7 +111,7 @@ body {
         HOME
   ======================*/
   
-  .background_image {
+  /* .background_image {
   background-size: contain;
   }
   .home_box {
@@ -128,7 +128,7 @@ body {
    
     /* height: 121px; */
     /* margin: 0_auto; */
-    text-align: center;
+    /* text-align: center;
     color: white;
     font-size: 40px;
     padding: 21px 65px 0px 70px; 
@@ -168,7 +168,7 @@ body {
   }
   a:visited {
     color: white;
-  }
+  } */ */
   /*====================
     Home . ABOUT 
   ======================*/
