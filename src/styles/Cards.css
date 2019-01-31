@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam:400,700" rel="stylesheet');
+
 .cardsStyle {
   color: lightslategray;
   
@@ -6,7 +8,7 @@
 }
 
 .cardsTitle {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .cardSubtitle {
@@ -15,4 +17,5 @@
 
 .cardsText {
   font-size: 25px;
+  
 }

@@ -1,5 +1,5 @@
 
-body {
+/* body {
     padding:0;
     margin:0;
     font-family: 'Roboto', sans-serif;
@@ -34,7 +34,7 @@ body {
   }
   
   
-  
+   */
   
   /*====================
         HEADER
@@ -180,7 +180,7 @@ body {
   
   }
   
-  .uiux-side {
+  /* .uiux-side {
   background:#3e3e3e;
   color: white;
   font-size: 25px;
@@ -201,7 +201,7 @@ body {
   padding-top: 200px;
   right:0;
   }
-  
+   */
 
   
   /* .split-pane {
@@ -460,7 +460,7 @@ body {
   /* Ipad */
   @media screen and (max-width: 768px){
   
-  .header-links li {
+  /* .header-links li {
   float: none;
   display: block;
   text-align: left;
@@ -476,7 +476,7 @@ body {
   height:160px;
   text-align: center;
   }
-  }
+  } */
   
   /*  */
   /* Samsung Galaxy S5 */

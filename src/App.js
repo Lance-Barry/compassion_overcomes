@@ -11,6 +11,9 @@ import OpportunityBoard from './screens/opportunityBoard';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
+
+
+
 class App extends Component {
     state = {
         opportunities: null,
@@ -65,6 +68,7 @@ class App extends Component {
                         )
                     }} />
                 </Switch>
+                
                 <Footer />
             </div>
         );

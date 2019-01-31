@@ -4,9 +4,8 @@ import {
     CardTitle, Button
 } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import ReactPlayer from 'react-player';
 
-import Ascent_Clouds from '../resources/images/Ascent_Clouds.mpg';
+import fullSizeWordsNoVerse from '../resources/images/fullSizeWordsNoVerse.jpg';
 
 import '../styles/card.css';
 
@@ -15,7 +14,7 @@ const Example = (props) => {
         <div class="singleCard">
             <Card>
                 <div class="singleCardImg">
-                    <CardImg top width="100%" src={Ascent_Clouds}  />
+                    <CardImg top width="100%" src={fullSizeWordsNoVerse} alt="FullWorldNoWords" />
                 </div>
                 <CardBody>
                     <div class="singleCardTitle">

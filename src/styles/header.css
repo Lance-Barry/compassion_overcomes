@@ -1,7 +1,13 @@
 
-.HeaderStyles{
-    color: black;
+.menuStyling > * {
     float: right;
-    padding: '10px 10px 10px 10px';
+    padding: '10px 25px 10px 10px';
+    font-size: 24px;
+    margin-top: 10px;
+    margin-right: 20px;
+    
+}  
 
+.nav-button {
+    color: black !important;
 }

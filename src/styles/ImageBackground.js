@@ -1,51 +1,22 @@
-import React, { Component } from 'react';
-import {
-  StyleSheet,
-  Text,
-  Image,
-  View
-} from 'react-native';
+// //  Very simple drop-in replacement for <Image> which supports nesting views.
 
-import DigitalWorld from '../resources/images/DigitalWorld.jpg';
+// //</Image> ```ReactNativeWebPlayer
+// import React, { Component } from 'react';
+// import { ImageBackground, Text } from 'react-native';
 
-class BackgroundImage extends Component {
+// import DigitalWorld from '../resources/images/DigitalWorld.jpg';
 
-    render() {
-        return (
-            <Image source={require('DigialWorld')}
-                  style={styles.backgroundImage}>
+//  class DisplayAnImageBackground extends Component {
+//    render() {
+//      return (
+//        <ImageBackground
+//          style={{width: 50, height: 50}}
+//          source={{uri: '../resources/images/DigitalWorld.jpg'}}
+//        >
+//          <Text>React</Text>
+//        </ImageBackground>
+//      );
+//    }
+//  }
 
-                  {this.props.children}
-
-            </Image>
-        )
-    }
-}
-
-class TestBackgroundImage extends Component {
-    render() {
-        return (
-            <BackgroundImage>
-              <Text style={styles.text}>Fullscreen!</Text>
-            </BackgroundImage>
-        ) 
-    }
-}
-
-const styles = StyleSheet.create({
-    backgroundImage: {
-        flex: 1,
-        width: null,
-        height: null,
-        resizeMode: 'cover'
-    },
-
-    text: {
-        textAlign: 'center',
-        color: 'white',
-        backgroundColor: 'rgba(0,0,0,0)',
-        fontSize: 32
-    }
-});
-
-export default TestBackgroundImage
+//  export default DisplayAnImageBackground;

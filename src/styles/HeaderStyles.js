@@ -1,10 +1,12 @@
-import '../styles/header.css';
+ import '../styles/header.css';
 
-const HeaderStyles = {
+
+ const Header = {
     
-    float: 'right',
-    padding: '10px 10px 10px 10px',
+     
+    //  float: 'right',
+    //  padding: '10px 10px 10px 10px',
     
 }
 
-export default HeaderStyles;
+export default Header;
