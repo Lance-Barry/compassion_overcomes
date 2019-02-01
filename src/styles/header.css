@@ -7,10 +7,11 @@
     margin-right: 20px;
     font-family: 'Italiana', serif;
     font-weight: lighter;
+    color: rgb(159, 183, 162);
 
     
 }  
 
 .nav-button {
-    color: black !important;
+    color:  rgb(159, 183, 162);
 }

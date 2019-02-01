@@ -7,13 +7,21 @@
     font-size: 65px;
     font-weight: bold;
     font-family: 'Italiana', serif;
+    color: rgb(159, 183, 162);
 }
 
 
 body {
-    background-color: rgb(159, 183, 162)
+    background-color: rgb(159, 183, 162);
     
 
 
     
 }
+.background-image {
+    background-image: url('../resources/images/digitalworld.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100%;
+   }

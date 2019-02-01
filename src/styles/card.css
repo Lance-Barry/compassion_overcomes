@@ -1,8 +1,10 @@
 /* @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet'); */
 
 .singleCard {
-    padding: 50px 300px 50px 300px;
+    padding: 50px 250px 50px 250px;
     text-align: justify;
+    margin: 50px 200px 200px 200px;
+    color: black
 }
 .singleCardTitle {
     font-size: 40px;
@@ -10,10 +12,11 @@
 
 .singleCardImg {
     size: 80%;
-    
+    }
 
-}
-
+.singleCardText {
+    font-size: 30px;
+  }
 
 
 .pageHeading {
@@ -25,10 +28,10 @@
 
 
 .cardsStyle {
-    color: lightslategray;
-    
-    text-align: justify;
+    color: black;
+   text-align: justify;
     padding: 50px;
+    margin: 120px;
   }
   
   .cardTitle {
@@ -39,6 +42,4 @@
     font-size: 20px;
   }
   
-  .singleCardText {
-    font-size: 30px;
-  }
+ 

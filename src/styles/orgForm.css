@@ -3,6 +3,8 @@
 .formStyle {
     padding-top: 200px;
     margin-top: 200px;
+    background-color: rgb(211, 211, 211, 0.6);
+    
 };
 
 .orgHeading {
@@ -11,3 +13,13 @@
     font-size: 70px;
     
 }
+
+
+/* .background-image {
+    background-image: url('../resources/images/digitalworld.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: auto;
+    
+   } */
