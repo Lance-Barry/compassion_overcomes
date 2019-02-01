@@ -9,8 +9,9 @@ const Organizations = ({ onSubmit }) => (
     <div>
         <div class="pageHeading">
             <p>Organizations</p>
-
+            
         </div>
+        <br></br>
         <OrgForm onSubmit={onSubmit} />
 
     </div>

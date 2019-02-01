@@ -10,7 +10,7 @@ class OpportunityBoard extends Component {
 
         return (
             <div>
-                <h3>Volunteer Opportunities</h3>
+                <div className="pageHeading">Volunteer Opportunities</div>
                 { opportunities.map( opportunity => (
                     <Opportunity key={opportunity.AppUserID} opportunity={opportunity} />
                 ))}

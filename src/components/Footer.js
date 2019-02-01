@@ -10,8 +10,7 @@ const Footer = () => {
             </footer>
 
 
-            <div className="copywrite">
-                <p>©Compassion Overcomes 2019, All Rights Reserved.</p>
+            <div className="copywrite">©Compassion Overcomes 2019, All Rights Reserved.
             </div>
         </footer>
     )

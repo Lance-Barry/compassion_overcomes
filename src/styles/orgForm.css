@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merienda');
+/* @import url('https://fonts.googleapis.com/css?family=Merienda'); */
 
 .formStyle {
     padding-top: 200px;
@@ -9,5 +9,5 @@
     padding: 65px 0px 0px 0px;
     text-align: center;
     font-size: 70px;
-    font-family: 'Merienda', cursive;
+    
 }
