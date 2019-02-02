@@ -6,7 +6,7 @@ import OrgResize from '../resources/images/OrgResize.jpg';
 import VolResize from '../resources/images/VolResize.jpg';
 
 import '../styles/Cards.css'
-//import fullSizeWordsNoVerse from '../resources/images/fullSizeWordsNoVerse.jpg';
+
 
 const Cards = (props) => {
   return (
