@@ -3,7 +3,7 @@
 .formStyle {
     padding-top: 200px;
     margin-top: 200px;
-    margin-bottom: 200px;
+    
     
     background-color: rgb(211, 211, 211, 0.6);
     
@@ -16,5 +16,8 @@
     
 }
 
-
+body {
+    margin-bottom: 100px;
+    background-color: rgb(159, 183, 162);
+}
  
