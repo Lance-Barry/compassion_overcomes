@@ -2,7 +2,7 @@ import React from 'react';
 import OrgForm from '../components/OrgForm';
 
 import '../styles/OrgFormStyles.js';
-import '../styles/orgForm.css';
+//import '../styles/orgForm.css';
 import '../styles/home.css';
 
 const Organizations = ({ onSubmit }) => (
@@ -11,7 +11,7 @@ const Organizations = ({ onSubmit }) => (
             <p>Organizations</p>
             
         </div>
-        <br></br>
+        
         <OrgForm onSubmit={onSubmit} />
 
     </div>

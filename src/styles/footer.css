@@ -3,13 +3,10 @@
 .bottom {
     bottom: 0%;
     width: 100%;
+    height: auto;
     position: fixed;
     background-color: rgb(159, 183, 162);
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
     font-family: 'Italiana', serif;
-  
-    
-   
-
 }

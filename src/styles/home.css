@@ -1,6 +1,40 @@
 
 @import url('https://fonts.googleapis.com/css?family=Italiana');
 
+
+.background-image {
+    background-image: url('../resources/images/digitalworld.jpg');
+    /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+ 
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+/* .background-image {
+    background-image: url('../resources/images/digitalworld.jpg');
+    height: 100%;
+    width: auto;
+    /* background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important; */
+    /* -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+
+   }   */
+
+
 .pageHeading {
     padding: 65px 0px 0px 0px;
     text-align: center;
@@ -11,17 +45,17 @@
 }
 
 
-body {
-    background-color: rgb(159, 183, 162);
-    
-
-
-    
-}
-.background-image {
-    background-image: url('../resources/images/digitalworld.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: auto;
+html {
     height: 100%;
-   }
+    background-color: rgb(159, 183, 162);
+}
+
+
+/* body html { 
+    background: url('../resources/images/digitalworld.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } */
+
