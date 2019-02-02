@@ -5,8 +5,9 @@ import {
 } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
-import fullSizeWordsNoVerse from '../resources/images/fullSizeWordsNoVerse.jpg';
+import digitalworld from '../resources/images/digitalworld.jpg';
 
+//import '../styles/card.css';
 import '../styles/card.css';
 
 const Example = (props) => {
@@ -14,7 +15,7 @@ const Example = (props) => {
         <div class="singleCard">
             <Card>
                 <div class="singleCardImg">
-                    <CardImg top width="100%" src={fullSizeWordsNoVerse} alt="FullWorldNoWords" />
+                    <CardImg top width="100%" src={digitalworld} alt="ditial world map" />
                 </div>
                 <CardBody>
                     <div class="singleCardTitle">

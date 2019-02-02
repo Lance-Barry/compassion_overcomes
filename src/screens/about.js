@@ -6,7 +6,7 @@ import '../styles/about.css';
 
 const About = () => (
     <div class="pageHeading">
-            <p>About</p>
+            <p>Our Mission</p>
             <Card />
         </div>
 );
