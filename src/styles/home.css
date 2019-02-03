@@ -1,6 +1,40 @@
 
 @import url('https://fonts.googleapis.com/css?family=Italiana');
 
+@media(max-width: 500px){
+    .pageHeading {
+        padding: 35px 0px 0px 0px;
+        text-align: center;
+        font-size: 10px;
+        font-weight: bold;
+        font-family: 'Italiana', serif;
+        color: rgb(159, 183, 162);
+    }
+}
+
+@media(max-width: 768px){ 
+    .pageHeading {
+        padding: 35px 0px 0px 0px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Italiana', serif;
+        color: rgb(159, 183, 162);
+    }
+}
+
+@media(min-device-width: 1024px){ 
+    .pageHeading {
+        padding: 65px 0px 0px 0px;
+        text-align: center;
+        font-size: 65px;
+        font-weight: bold;
+        font-family: 'Italiana', serif;
+        color: rgb(159, 183, 162);
+    }
+    
+}
+
 body {
     
     background-color: rgb(159, 183, 162);
@@ -48,14 +82,6 @@ body {
    } 
 
 
-.pageHeading {
-    padding: 65px 0px 0px 0px;
-    text-align: center;
-    font-size: 65px;
-    font-weight: bold;
-    font-family: 'Italiana', serif;
-    color: rgb(159, 183, 162);
-}
 
 
  
