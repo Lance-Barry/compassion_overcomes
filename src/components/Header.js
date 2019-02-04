@@ -6,7 +6,7 @@ import '../styles/header.css';
 
 const Header = () => (
     <div id="myNav" className="menuStyling">
-        <div className="overlay-content" style={HeaderStyles}>
+        <div className="nav-collapse" style={HeaderStyles}>
             <Link className="nav-button" to="/">Home |</Link>
             <Link className="nav-button" to="/about"> About |</Link>
             <Link className="nav-button" to="/organizations"> Organizations |</Link>

@@ -15,7 +15,7 @@ let db = new sqlite.Database(dbFilename, (err) => {
 
 const app = express();
 
-// We'll need this to parse json sent in a POST request from React/Client
+// need this to parse json sent in a POST request from React/Client
 app.use(bodyParser.json());
 app.use(cors());
 
@@ -59,9 +59,6 @@ app.post('/opportunities', (req, res) => {
   res.send(opp)
 })
 
-// 5. Set up post route to receive opportunity data from React
-// app.post("/opportunities", (req, res) => {
-//   res.send("Received POST request")
-// })
+
 
 app.listen(PORT, () => console.log(`Server is listening on port: ${PORT}`));

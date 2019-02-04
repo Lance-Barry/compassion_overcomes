@@ -25,21 +25,14 @@ const Example = (props) => {
                     <div class="singleCardText">
                         <CardText>
 
-                            
-                            <p>Our company was founded on the basic principle that all people were created with the innate trait of compassion, and when given the opportunity or outlet, the gift of compassion which is in all of us, will manifest in such a way, as to help these persons who are experiencing tragic circumstances in their life.</p>>
+                            <p>We believe that compassion can overcome even the most tragic of circumstances of the world.</p>
 
-We love to hear stories of people giving of their time and talents, to help those in need the most. Whether it be individuals,  college students forgoing spring breaks, families, faith based or civic groups, 
+                            <p>Our mission is to connect domestic and international disaster relief agencies (including faith based groups, civic and governmental agencies) working around the world, with those people whose desire is to help their neighbors when they are in need the most, all in one convenient site.</p> 
 
-This concept has been with me since a small rural community was struck by an F5 tornado in 1998, all but leveling the small this small town. In the aftermath of this destruction, people from all over the region, came to help in any way possible. Unfortunately, following major catastrophes, the needs for help may continue for months or even years. 
+                            <p>Often, the damage caused by a natural disaster results in long term efforts by multiple organizations in the affected communities. After the initial outpouring of volunteers, support can more difficult to come by, or worse, that those wishing to volunteer are unable to find current information in a given area.</p>
 
-There are many amazing relief agencies, which include private organizations, churches and government agencies. Each with their own way of finding those persons wanting to give their time. 
- The purpose of this site, is to create a central location where all organizations involved in every phase of the relief effort, from the search and rescue, clean up as well as all after care efforts. All organizations are encouraged to post their specific volunteer needs and where volunteers may locate those specific needs. 
+                            <p>Our goal is to become the central repository for relief agencies to post specific ongoing needs and to connect with people concerned for the sufferings or misfortunes of their neighbors.</p>
 
-Thank you for your hearts to help your neighbor who are in need. We believe that your compassion will overcome the pain our neighbors are experiencing in their lives. 
-
-                        
-
-                        
                         </CardText>
                         <Link to="/"><Button>Return Home</Button></Link>
                     </div>

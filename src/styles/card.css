@@ -1,13 +1,17 @@
-/* @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet'); */
+/* Reset */
 
 .singleCard {
     padding: 50px 100px 50px 100px;
     text-align: justify;
     margin: 50px 150px 200px 150px;
-    color: black
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: lighter;
+    
 }
+
 .singleCardTitle {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .singleCardImg {
@@ -29,7 +33,7 @@
 
 .cardsStyle {
     color: black;
-   text-align: justify;
+    text-align: justify;
     padding: 50px;
     margin: 120px;
   }

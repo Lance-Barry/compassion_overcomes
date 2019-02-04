@@ -2,7 +2,8 @@
 @media(max-width: 500px){
     
     .menuStyling {
-        
+        display: inline-block;
+        width: 100%;
         position: absolute;
         padding: '10px 25px 10px 10px';
         font-size: 24px;
@@ -11,7 +12,7 @@
         font-family: 'Italiana', serif;
         font-weight: lighter;
         color: rgb(159, 183, 162);
-        display: inline-block;
+        
     }
     
     .nav-button {

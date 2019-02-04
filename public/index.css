@@ -1,13 +1,1 @@
 
-
-.background-image {
-    background-image: url('./resources/images/digitalworld.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: auto;
-   }
-   I have this code above it- the background had to be white in my case so the image would appear
-   body {
-    height: 100%;
-    /* background-color: rgb(0,0,0); */
-   }
