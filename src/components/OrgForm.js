@@ -11,7 +11,7 @@ const OrgForm = ({ onSubmit }) => (
     <Form div className="formStyle"
       onSubmit={onSubmit}
       render={({ handleSubmit, submitting, pristine }) => (
-        <form style={{background:"rgb(211, 211, 211, 0.7)"}}onSubmit={handleSubmit} >
+        <form style={{background:"rgb(211, 211, 211)"}}onSubmit={handleSubmit} >
         <h1>Relief Agency Form</h1>
           <div>
             <label>Organization</label>
